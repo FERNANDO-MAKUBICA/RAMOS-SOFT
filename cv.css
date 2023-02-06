@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif #fff;
+    font-style: oblique,italic;
+    color: #fff;
+}
+body{
+    background-color: rgb(2, 49, 49); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.conteiner{
+   position: relative;
+   width: 100%;
+   max-width: 1000px;
+   min-height:1000px ;
+   margin: 50px;
+   background-color:floralwhite ;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   box-shadow: 0 35px 55px rgb(255, 255, 255);
+} 
+.conteiner .esquerda{
+    position: relative;
+    background-color: rgb(1, 1, 44);
+    padding: 40px;
+    font-style: o;
+}
+.conteiner .direita{
+    position: relative;
+    background-color: rgb(45, 45, 233);
+    padding: 40px;
+}
+.perfil{
+   position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom:1px solid  #fff;
+    
+}
+ h2{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 2.0ex;
+}
+h2 span{
+    font-size: 0.9em;
+    font-weight: 280;
+}
+.contacto ul{
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid #fff;
+}
+li{
+    margin-bottom: 15px;
+}
+.titulo{
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 15px ;
+}
+.img{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 35%;
+}
+img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.nivel{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+}
+.nivel h3{
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 15px ;
+}
+.nivel ul
+{
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid #fff;
+  
+}
+.conteiner .direita .qualificações{
+    
+    position: relative;
+    color: black;
+}
+.qualificações h1{
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 15px ;
+}
+.qualificações h2{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    line-height: 3.0ex;
+    margin-bottom: 35px;
+} .arg{
+    font-size: 1.1em;
+    font-weight: 280;
+}
+.qualificações ul{
+      position: relative;
+}
+.qualificações ul li{
+    font-size: 1.1em;
+    font-weight: 280;}
